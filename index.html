@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel = "stylesheet" href = "style.css">
+    <title>DooHee Lee's Website</title>
+</head>
+<body>
+
+    <!--NAVBAR SECTION-->
+    <nav class="navbar navbar-expand-lg bg-success navbar-dark">
+        <div class="container-fluid">
+            <!--NAVBAR BRAND W/ LOGO-->
+            <a class="navbar-brand" href="#">
+                <img src = "./pictures/dewLogo.svg" 
+                    alt = "DooHee Lee's Website" 
+                    width = "30" 
+                    height = "30"
+                    class = "d-inline-block align-top" />
+                
+            </a>
+            <!--END NAVBAR BRAND W/ LOGO-->
+
+            <!--DROP DOWN HAMBURGER BUTTON-->
+            <button 
+            class="navbar-toggler" 
+            type="button"
+            data-bs-toggle="collapse" 
+            data-bs-target="#navmenu"
+            aria-controls="navmenu"
+            aria-expanded="false"
+            aria-lable="Toggle navigation"
+            >
+            <span class = "navbar-toggle-icon"></span> 
+            </button>
+             <!--END DROP DOWN HAMBURGER BUTTON-->
+
+            <!--NAVMENU CONTENTS-->
+            <div class = "collapse navbar-collapse" 
+                    id = "navmenu">
+                <ul class = "navbar-nav text-center ms-auto">
+                    <!--text-center ms-auto-->
+                    <!--BIO-->
+                    <li class = "nav-item">
+                        <a  href = "https://github.com/MtnDooHee/dooheewebsite.git"
+                            class = "nav-link">
+                            Bio
+                        </a>
+                    </li>
+                    <!--END BIO-->
+
+                    <!--PROJECTS-->
+                    <li class = "nav-item dropdown">
+                        <a class ="nav-link dropdown-toggle"
+                            href = #projects 
+                            id="navbarDropdown1" 
+                            role="button" 
+                            data-bs-toggle="dropdown" 
+                            aria-expanded="false">
+                            Projects
+                        </a>
+                            <!--PROJECTS DROPDOWN-->
+                            <ul class="dropdown-menu text-center" 
+                                aria-labelledby="navbarDropdown1">
+                                <li>
+                                    <a class="dropdown-item" 
+                                    href="https://MtnDooHee.github.io">Software
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" 
+                                    href="#justforfun">
+                                    Just For Fun
+                                    </a>
+                                </li>
+                          </ul>
+                          <!--END PROJECTS DROPDOWN-->
+                    </li>
+                    <!--END PROJECTS-->
+                    
+                    <!--DOCUMENTS-->
+                    <li class = "nav-item dropdown">
+                        <a class = "nav-link dropdown-toggle"
+                            href = #documents 
+                            id="navbarDropdown2" 
+                            role="button" 
+                            data-bs-toggle="dropdown" 
+                            aria-expanded="false">
+                            Documents
+                        </a>
+                            <!--DOCUMENTS DROPDOWN-->
+                            <ul class="dropdown-menu text-center" 
+                                aria-labelledby="navbarDropdown2">
+                                <li>
+                                    <a class="dropdown-item" 
+                                    href="#resume">
+                                    Resume
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" 
+                                    href="#certificates">
+                                    Certificates
+                                    </a>
+                                </li>
+                          </ul>
+                          <!--END DOCUMENTS DROPDOWN-->
+                    </li>
+                    <!--END DOCUMENTS-->
+
+                    <!--INTERESTS-->
+                    <li class = "nav-item">
+                        <a href = #interests 
+                            class = "nav-link">
+                            Interests
+                        </a>
+                    </li>
+                    <!--END INTERESTS-->
+
+                    <!--CONTACT-->
+                    <li class = "nav-item">
+                        <a href = #contact 
+                            class = "nav-link">
+                            Contact
+                        </a>
+                    </li>
+                    <!--END CONTACT-->
+                </ul>
+                <!--END OF LIST-->
+            </div>
+            <!--END NAVMENU CONTENTS-->
+        </div>
+        <!--END OF CONTAINER-->
+    </nav>
+    <!--END OF NAVBAR SECTION-->
+
+    <!--HOME PAGE SHOWCASE-->
+
+    <!--INTRO TITLE BLOCK-->
+    <section class="bg-dark text-light p-2 text-center">
+        <div class = "container fluid">
+            <div class = "d-lg-flex align-items-center">
+                <img class="img-fluid px-5" src="./pictures/softwareIcon.png" alt="" />
+                <div>
+                    <h1>
+                        <span class="text-success">
+                                Welcome</span> to my software projects page
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--END INTRO TITLE BLOCK-->
+    
+    <section class="bg-success text-light p-5 text-center">
+        <div class = "container fluid">
+            <div class = "d-lg-flex align-items-center justify-content-between">
+
+                <img class="img-fluid px-5" src="./pictures/pacmanPic.png" alt="" />
+                <div>
+                    <h2>
+                        <span 
+                            class="text-dark">
+                            PACMEN EXERCISE
+                        </span> 
+                    </h2>
+                    <p class="lead my-4">
+                        This application takes the real star of the Pac-Man game (Pac-Man) and only has Pac-Man by itself. 
+                    </p> 
+                    <p class="lead">
+                        Pac-Man will chomp around your browser and once it hits the edge of your screen, it'll bounce back and continue the mayhem. Reminiscent of the DVD logo bumping around the TV screen, try and see if you can find a Pac-Man who will the corner perfectly.
+                    </p>
+                    <a href="https://github.com/MtnDooHee/pacmenfactory.git" class="btn btn-lg btn-dark"><span 
+                        class="text-success">
+                        Link to GitHub Repository
+                    </span> 
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-dark text-light p-5 text-center">
+        <div class = "container fluid">
+            <div class = "d-lg-flex align-items-center justify-content-between">
+                <div>
+                    <h2>
+                        <span 
+                            class="text-success">
+                            EYE EXERCISE
+                        </span> 
+                    </h2>
+                    <p class="lead my-4">
+                        This exercise has two eyes that follow the users mouse as it moves along the browser. 
+                    </p>
+                    <p class="lead">
+                        This exercise demonstrates the ability to manipulate styles and positions based on live data in the browser, incorporating JavaScript, html, and css. An improvement to the two eye'd exercise would be writing a script to continually add eyes in random positions of the browser as the previous one disappears.
+
+ 
+                    </p> 
+                    <a href="https://github.com/MtnDooHee/eyetracker.git" class="btn btn-lg btn-success"><span 
+                        class="text-dark">
+                        Link to GitHub Repository
+                    </span> 
+                    </a>
+                </div>
+                <img class="img-fluid px-5" src="./pictures/eyesPic.png" alt="" />
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-success text-light p-5 text-center">
+        <div class = "container fluid">
+            <div class = "d-lg-flex align-items-center justify-content-between">
+
+                <img class="img-fluid px-5" src="./pictures/mapMBTAbus.png" alt="" />
+                <div>
+                    <h2>
+                        <span 
+                            class="text-dark">
+                            REAL TIME BUS TRACKER
+                        </span> 
+                    </h2>
+                    <p class="lead my-4">
+                        This real time bus tracker collects live GPS location data on Boston's public bus system using an API from the MBTA. The script asks for the bus locations on the first bus route every 15 seconds and maps the coordinates accordingly using mapbox. After 14 seconds of the markers being displayed on the map, a 1 second removal of the markers shows new data is about to come in. If the operator desires, a popup at each location is created and displayed by clicking on the bus' marker. 
+                    </p> 
+                    <p class="lead">
+                        This program demonstrates the use of asynchronous and recurring functions to properly collect, analyze, and display data.
+                    </p>
+                    <a href="https://github.com/MtnDooHee/mtbatracker.git" class="btn btn-lg btn-dark"><span 
+                        class="text-success">
+                        Link to GitHub Repository
+                    </span> 
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-dark text-light p-5">
+        <div class="row text-mute text-center">
+            <p class="fst-italic fw-lighter">
+                All files have been updated by DooHee Lee. For questions, please email dooheecodes@gmail.com
+            </p>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+            crossorigin="anonymous">
+    </script>
+</body>
+</html>
+
